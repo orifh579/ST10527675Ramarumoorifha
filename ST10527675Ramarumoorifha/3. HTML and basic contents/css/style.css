@@ -1,0 +1,86 @@
+/* general page styling*/
+body{ 
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: color #f4f4f4;
+    color: #222;
+}
+
+/* header*/
+header{
+    background-color: #0b1f3a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}    
+
+/* logo*/
+.logo-container {
+    margin-bottom: 15px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto 10px;
+} 
+
+/* website name*/
+.logo-container h1 {
+    margin: 0;
+}
+
+/* navigation*/
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color:white;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* main section*/
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: white;
+}
+
+.hero h2 {
+    font-size: 32px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+/* button*/
+.button {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #007bff;
+    color:white
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}   
+.button:hover {
+    background-color: #0056b3;
+}
+
+/* footer*/
+footer {
+    background-color: #0b1f3a;
+    color:white;
+    text-align: center;
+    padding: 20px;
+}    

@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta charset="viewpoint" content="width=device-width" initial-scale="1.0">
+    <title>enquiry- techzone electronics</title>
+    <link rel="stylesheet" href="css/style.css">
+ </head>
+
+<body>
+
+    <!-- Navigation -->
+     <header>
+        <nav>
+            <h1>Techzone electronics</h1>
+
+            <ul>
+                <li><a href="index.html">home</a></li>
+                <li><a href="about.html">about</a></li>
+                <li><a href="products.html">products</a></li>
+                <li><a href="enquiry.html">enquiry</a></li>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
+        </nav>
+     </header>
+
+<!-- enquiry section -->
+ <main>
+ <section class="enquiry">
+    <h2>product enquiry</h2>
+    <p>please complete the form below if you would like more information about our products.</p>
+
+    <form id="enquiryform">
+
+        <label for="name">full name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">email address:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="phone">phone number:</label>
+        <input type="tel" id="phone" name="phone">
+        <label for="product">product:</label>
+        <select id="product" name="product" required>
+
+            <option value="">-- select a product --</option>
+            <option value="laptop">laptop</option>
+            <option value="smartphone">smartphone</option>
+            <option value="headset">headset</option>
+            <option value="printer">printer</option>
+        </select>
+
+        <label for="message">your enquiry:</label>
+        <textarea id="message" name="message" rows="6" placeholder="type your enquiry here..." required></textarea>
+
+   <button type="submit">submit enquiry</button>  
+    </form>
+    <p id="formMessage"></p>  
+ </section>
+ </main>
+
+
+<!-- footer --> 
+ <footer>
+    <p>&copy; 2026 Techzone electronics.all rights reserved.</p>
+    <p>
+        email:<a href="mailto:info@techzone.co.za">info@techzone.co.za</a>
+    </p>
+    
+    <P>
+        follow us:
+        <a href="#">facebook</a>
+        <a href="#">instagram</a>
+        <a href="#">TikTok</a>
+    </P>
+ </footer>
+ 
+<script src="js/script.js"></script>
+
+</body>
+</html>
+
+
+
